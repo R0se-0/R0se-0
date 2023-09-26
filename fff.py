@@ -11,8 +11,6 @@ while True:
 
     if choice in ('1', '2', '3'):
         try:
-            #timee = float(input("Enter time value: "))
-            #distance = float(input("Enter distance value: "))
             f = 0
         except ValueError:
             print("NULL")
